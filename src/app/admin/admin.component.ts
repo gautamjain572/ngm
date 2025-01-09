@@ -11,6 +11,7 @@ import { NgForm } from '@angular/forms';
 export class AdminComponent {
   model:any = {};
   cover!: string;
+ courses: any[] = [];
 
   onFileSelected(event: any) {
     const file: File = event.target.files[0];

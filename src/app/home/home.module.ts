@@ -9,7 +9,11 @@ import { CoursesComponent } from '../courses/courses.component';
   declarations: [HomeComponent,CoursesComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
   ]
 })
-export class HomeModule { }
+export class HomeModule { 
+  constructor(){
+    console.log('HomeModule loaded');
+  }
+}
